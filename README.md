@@ -4,13 +4,13 @@ Este projeto é uma análise exploratória de dados (EDA) baseada no Brazilian E
 
 ---
 
-## Objetivo
+## 🧠 Objetivo
 
 Executar um pipeline completo de **ETL + EDA**, escolhendo **uma pergunta por tópico** (vendas, logística, cliente, financeiro, marketing) conforme o desafio proposto.
 
 ---
 
-## Pipeline
+## ⚙️ Pipeline
 
 ### 1. ETL (Extração, Transformação e Carregamento)
 
@@ -23,7 +23,7 @@ Executar um pipeline completo de **ETL + EDA**, escolhendo **uma pergunta por t�
 
 ---
 
-## Análises Exploradas
+## 📊 Análises Exploradas
 
 ### 🔹 1. Tendência de Crescimento (Vendas)
 
@@ -79,23 +79,18 @@ Executar um pipeline completo de **ETL + EDA**, escolhendo **uma pergunta por t�
 
 ---
 
-## Estrutura de Arquivos
+## 📁 Estrutura de Arquivos
 
 ```
-📦 data-analysis-challenge-on-brazilian-e-commerce
+data-analysis-challenge-on-brazilian-e-commerce/
 ├── README.md
-├── data/
-│ └── *.csv # Arquivos originais do dataset
-├── notebooks/
-│ ├── 01_etl.ipynb # Extração e tratamento de dados
-│ └── 02_analise_eda.ipynb # Análise exploratória (gráficos + insights)
-└── outputs/
-└── merged_df.csv # Dataset final tratado
+├── analise-dados.ipynb
+└── dataset/
 ````
 
 ---
 
-## Tecnologias Utilizadas
+## 📚 Tecnologias Utilizadas
 
 - **Python 3**
 - **Pandas, NumPy** – manipulação de dados
