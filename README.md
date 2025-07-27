@@ -83,9 +83,9 @@ Executar um pipeline completo de **ETL + EDA**, escolhendo **uma pergunta por t�
 
 ```
 data-analysis-challenge-on-brazilian-e-commerce/
-├── README.md
 ├── LICENSE
-└── dataAnalysisChanllage.ipynb
+├── README.md
+└── dataAnalysisChallenge.ipynb
 
 ````
 
