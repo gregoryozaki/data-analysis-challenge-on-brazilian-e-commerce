@@ -10,7 +10,7 @@ Executar um pipeline completo de **ETL + EDA**, escolhendo **uma pergunta por t�
 
 ---
 
-## ⚙️ Pipeline
+## Pipeline
 
 ### 1. ETL (Extração, Transformação e Carregamento)
 
@@ -23,7 +23,7 @@ Executar um pipeline completo de **ETL + EDA**, escolhendo **uma pergunta por t�
 
 ---
 
-## 📊 Análises Exploradas
+## Análises Exploradas
 
 ### 🔹 1. Tendência de Crescimento (Vendas)
 
@@ -95,7 +95,7 @@ Executar um pipeline completo de **ETL + EDA**, escolhendo **uma pergunta por t�
 
 ---
 
-## 📚 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python 3**
 - **Pandas, NumPy** – manipulação de dados
