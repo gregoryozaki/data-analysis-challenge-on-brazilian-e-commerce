@@ -1,12 +1,10 @@
-# data-analysis-challenge-on-brazilian-e-commerce
+# Desafio de Análise de Dados - E-commerce Brasileiro
 
-# 📦 Desafio de Análise de Dados - E-commerce Brasileiro
-
-Este projeto é uma análise exploratória de dados (EDA) baseada no [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), com foco em entender o desempenho do e-commerce, logística, satisfação do cliente, aspectos financeiros e impacto de campanhas promocionais.
+Este projeto é uma análise exploratória de dados (EDA) baseada no Brazilian E-Commerce Public Dataset by Olist, com foco em entender o desempenho do e-commerce, logística, satisfação do cliente, aspectos financeiros e impacto de campanhas promocionais.
 
 ---
 
-## 🧠 Objetivo
+## Objetivo
 
 Executar um pipeline completo de **ETL + EDA**, escolhendo **uma pergunta por tópico** (vendas, logística, cliente, financeiro, marketing) conforme o desafio proposto.
 
@@ -14,7 +12,7 @@ Executar um pipeline completo de **ETL + EDA**, escolhendo **uma pergunta por t�
 
 ## ⚙️ Pipeline
 
-### 1. 🧼 ETL (Extração, Transformação e Carga)
+### 1. ETL (Extração, Transformação e Carregamento)
 
 - Leitura e verificação de todos os datasets
 - Remoção de duplicatas
@@ -81,9 +79,10 @@ Executar um pipeline completo de **ETL + EDA**, escolhendo **uma pergunta por t�
 
 ---
 
-## 📁 Estrutura de Arquivos
+## Estrutura de Arquivos
 
-📦 projeto-ecommerce
+```
+📦 data-analysis-challenge-on-brazilian-e-commerce
 ├── README.md
 ├── data/
 │ └── *.csv # Arquivos originais do dataset
@@ -92,6 +91,7 @@ Executar um pipeline completo de **ETL + EDA**, escolhendo **uma pergunta por t�
 │ └── 02_analise_eda.ipynb # Análise exploratória (gráficos + insights)
 └── outputs/
 └── merged_df.csv # Dataset final tratado
+````
 
 ---
 
@@ -101,23 +101,5 @@ Executar um pipeline completo de **ETL + EDA**, escolhendo **uma pergunta por t�
 - **Pandas, NumPy** – manipulação de dados
 - **Seaborn, Matplotlib, Altair** – visualização
 - **Google Colab** – ambiente de desenvolvimento
-- **Kaggle Dataset** – fonte de dados (Olist)
-
----
-
-## 📌 Como Reproduzir
-
-1. Faça o download do dataset no [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-2. Coloque os arquivos `.csv` na pasta `data/` (ou no Google Drive, se estiver usando o Colab)
-3. Execute o notebook `01_etl.ipynb` para gerar o `merged_df`
-4. Abra `02_analise_eda.ipynb` e explore os gráficos e análises
-
----
-
-## ✍️ Autor
-
-**Gregory Ozaki**  
-Desenvolvido como parte do **Desafio Talent Lab 2025 – Análise de Dados**  
-📧 *gregory.ozaki@email.com*
 
 ---
